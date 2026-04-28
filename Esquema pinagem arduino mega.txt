@@ -1,0 +1,24 @@
+1. Barramento de Endereço (PinsAddr)
+Esses pinos dizem à memória onde ler ou gravar.
+
+A0 até A7: Pinos 31, 33, 35, 37, 39, 41, 43, 45
+
+A8 até A15: Pinos 42, 40, 34, 38, 47, 44, 46, 49
+
+A16 até A18: Pinos 32, 48, 36
+
+2. Barramento de Dados (PinsData)
+Por onde a informação realmente viaja.
+
+D0 até D7: Pinos 29, 27, 25, 22, 24, 26, 28, 30
+
+3. Pinos de Controle e Interface
+Os "comandos" do sistema.
+
+Controle da Memória: CE (16), OE (17), WE (18).
+
+Cartão SD (SPI): MISO (50), MOSI (51), SCK (52), CS (53).
+
+Botões de Navegação: UP (A8), DOWN (A9), SEL (A10).
+
+OLED (I2C): SDA (20) e SCL (21) — Padrão do Mega.
